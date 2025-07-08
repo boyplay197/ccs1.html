@@ -2,19 +2,19 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Exemplo com CSS Embutido</title>
+  <title>Exercício CSS - Seletores</title>
   <style>
-    /* 1. Estilização de links */
+    /* 1. Estilo para os links */
     a {
       color: red;
       text-decoration: none;
     }
 
     a:hover {
-      color: lemonchiffon; /* Usando 'lemonchiffon' pois 'lemon' não é uma cor válida */
+      color: lemonchiffon;
     }
 
-    /* 2. Estilização de parágrafos */
+    /* 2. Estilo para os parágrafos */
     p {
       font-family: Arial, sans-serif;
     }
@@ -23,7 +23,7 @@
       font-weight: bold;
     }
 
-    /* 3. Estilização da classe .destaque */
+    /* 3. Estilo para a classe .destaque */
     .destaque {
       font-family: Arial, sans-serif;
     }
@@ -39,16 +39,22 @@
 </head>
 <body>
 
-  <h1>Bem-vindo</h1>
-  <p>Bem vindo a minha pagina</p>
+  <h1>Exemplo com Seletores CSS</h1>
 
-  <p>Estou aprendendo sobre Css no projeto desenvolve</p>
- 
-  <p>Estou gostando muito de fazer o curso e o aprendizado tem sido bem legal.</p>
+  <!-- Parágrafo logo após o h1 (deve estar em negrito) -->
+  <p>Este parágrafo está em negrito pois esta declarado logo após H1</p>
 
-  <p class="destaque">As aulas ajudam muito no nosso desempenho.Para mais informaçoes <a href="#">Clique aqui</a> por favor.</p>
+  <!-- Outro parágrafo comum -->
+  <p>Este é um parágrafo comum, com fonte Arial.</p>
 
-  <p> So tenho a agradecer a todos os </p> <strong class="destaque">"Professores"</strong>
+  <!-- Parágrafo com classe destaque -->
+  <p class="destaque">Este parágrafo usa a classe "destaque" e deve estar em negrito com fonte Arial.</p>
+
+  <!-- Strong com classe destaque -->
+  <p>Texto com <strong class="destaque">destaque em vermelho</strong> usando a classe "destaque" em uma tag &lt;strong&gt;.</p>
+
+  <!-- Link padrão e com hover -->
+  <p>Visite o <a href="https://projetodesenvolve.com.br/">nosso site</a> para mais informações.</p>
 
 </body>
 </html>
