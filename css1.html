@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Exemplo com CSS Embutido</title>
+  <style>
+    /* 1. Estilização de links */
+    a {
+      color: red;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: lemonchiffon; /* Usando 'lemonchiffon' pois 'lemon' não é uma cor válida */
+    }
+
+    /* 2. Estilização de parágrafos */
+    p {
+      font-family: Arial, sans-serif;
+    }
+
+    h1 + p {
+      font-weight: bold;
+    }
+
+    /* 3. Estilização da classe .destaque */
+    .destaque {
+      font-family: Arial, sans-serif;
+    }
+
+    p.destaque {
+      font-weight: bold;
+    }
+
+    strong.destaque {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Bem-vindo</h1>
+  <p>Bem vindo a minha pagina</p>
+
+  <p>Estou aprendendo sobre Css no projeto desenvolve</p>
+ 
+  <p>Para mais informaçoes <a href="index.html">Clique aqui</a> por favor.</p>
+
+  <p class="destaque">As aulas ajudam muito no nosso "Desempenho"</p>
+
+  <strong class="destaque">So tenho a agradecer a todos os "Professores"</strong>
+
+</body>
+</html>
